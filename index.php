@@ -21,6 +21,8 @@ session_start();
 
         <p>You are logged in.</p>
 
+        <p><a href="logout.php">Log out</a></p>
+
         <?php else: ?>
 
             <p><a href="login.php">Log in</a> or <a href="signup.html"></a>sign up</p>
