@@ -51,6 +51,14 @@ if (isset($_SESSION["user_id"])) {
     <div class="swiper-slide"><img src="assets/green.jpg" alt="an image of a green field in alaska"></div>
     <div class="swiper-slide"><img src="assets/mountains.jpg" alt="an image of mountains in alaska"></div>
     <div class="swiper-slide"><img src="assets/lake.jpg" alt="an image of a lake in alaska"></div>
+    <div class="swiper-slide"><img src="assets/road.jpg" alt="an image of a lake in alaska"></div>
+    <div class="swiper-slide"><img src="assets/river3.jpg" alt="an image of a lake in alaska"></div>
+    <div class="swiper-slide"><img src="assets/plane.jpg" alt="an image of a lake in alaska"></div>
+    <div class="swiper-slide"><img src="assets/river2.jpg" alt="an image of a lake in alaska"></div>
+    <div class="swiper-slide"><img src="assets/orcas.jpg" alt="an image of a lake in alaska"></div>
+    <div class="swiper-slide"><img src="assets/river.jpg" alt="an image of a lake in alaska"></div>
+    <div class="swiper-slide"><img src="assets/grizzly.jpg" alt="an image of a lake in alaska"></div>
+    <div class="swiper-slide"><img src="assets/clouds.jpg" alt="an image of a lake in alaska"></div>
   </div>
   <!-- If we need pagination -->
   <div class="swiper-pagination"></div>
