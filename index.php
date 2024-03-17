@@ -33,13 +33,13 @@ if (isset($_SESSION["user_id"])) {
     <div class="centered">
         <?php if (isset($user)): ?>
             <p>Hello <?= htmlspecialchars($user["name"]) ?></p>
-            <p><a href="logout.php">Log out</a></p>
+            <a href="logout.php"><button>Log out</button></a>
         <?php else: ?>
             <a href="login.php"><button>Log in</button></a><a href="signup.html"><button>Sign up</button></a>
         <?php endif; ?>
     </div>
 </div>
-
+<iframe src="https://www.youtube.com/embed/QriB1k4lwh8" frameborder="0"></iframe>
 <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->

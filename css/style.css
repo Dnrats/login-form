@@ -19,11 +19,16 @@ body {
 
 .centered {
     text-align: center;
-    width: 300px;
+    width: 400px;
     height: 200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.centered p{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    width: 300px;
 }
 
 /* Slider main container */
@@ -118,4 +123,12 @@ h1{
     left: 40%;
     font-family: 'Wanderlust', sans-serif;
     font-size: 3rem;
+}
+iframe{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    z-index: 97;
+    width: 500px;
+    height: 250px;
 }

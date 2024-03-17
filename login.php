@@ -38,26 +38,25 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <head>
     <title>Login</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.cdnfonts.com/css/wanderlust" rel="stylesheet">
 </head>
 <body>
-    
-    <h1>Login</h1>
-    
-    <?php if ($is_invalid): ?>
-        <em>Invalid login</em>
-    <?php endif; ?>
-    
-    <form method="post">
-        <label for="email">email</label>
-        <input type="email" name="email" id="email"
-               value="<?= htmlspecialchars($_POST["email"] ?? "") ?>">
-        
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        
-        <button id="login_button">Log in</button>
-    </form>
-    
+    <main>
+        <div id="image"><h1>Welcome to Alaska</h1><img src="assets/orange.jpg" alt="a view on a road in alaska with an orange sky. Probably during a sundown"></div>
+        <div id="form_field">
+            <h1>Login</h1>
+            <?php if ($is_invalid): ?>
+            <em>Invalid login</em>
+            <?php endif; ?>
+            <form method="post">
+                <label for="email"></label>
+                <div class="input-div"><img src="assets/email-icon.svg" alt=""><input type="email" name="email" id="email" placeholder="Email" value="<?= htmlspecialchars($_POST["email"] ?? "") ?>"></div>
+                <label for="password"></label>
+                <div class="input-div"><img src="assets/password-icon.svg" alt=""><input type="password" name="password" id="password" placeholder="Password"></div>
+                <button id="login_button">Log in</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
