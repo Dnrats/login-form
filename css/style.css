@@ -1,0 +1,121 @@
+/* SWIPER JS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99; /* Ensure the container is above the slider */
+}
+
+.centered {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Slider main container */
+.swiper {
+    width: 100%; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+    position: relative;
+    z-index: 0; /* Ensure the slider is behind the container */
+}
+
+/* Slides */
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Pagination */
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px; /* Adjust bottom spacing as needed */
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.5); /* Adjust background color and transparency as needed */
+    display: inline-block;
+    margin: 0 5px; /* Adjust bullet spacing as needed */
+    border-radius: 10px; /* Adjust bullet shape as needed */
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff; /* Active bullet color */
+}
+
+/* Navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* Adjust button width as needed */
+    height: 30px; /* Adjust button height as needed */
+    background: rgba(255, 255, 255, 0.5); /* Adjust button background color and transparency as needed */
+    cursor: pointer;
+    z-index: 10;
+}
+
+.swiper-button-prev {
+    left: 10px; /* Adjust left position as needed */
+}
+
+.swiper-button-next {
+    right: 10px; /* Adjust right position as needed */
+}
+
+/* Scrollbar (optional) */
+.swiper-scrollbar {
+    position: absolute;
+    bottom: 10px; /* Adjust bottom spacing as needed */
+    left: 0;
+    width: 100%;
+    height: 4px; /* Adjust scrollbar height as needed */
+    background: rgba(255, 255, 255, 0.5); /* Adjust scrollbar background color and transparency as needed */
+    z-index: 10;
+    border-radius: 2px; /* Adjust scrollbar border radius as needed */
+}
+button{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    width: 125px;
+    height: 50px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    font-size: 1rem;
+}
+h1{
+    z-index: 98;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-family: 'Wanderlust', sans-serif;
+    font-size: 3rem;
+}
