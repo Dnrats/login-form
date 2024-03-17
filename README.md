@@ -1,7 +1,7 @@
 # Login-form
 
 # Description
-I didnt have any particular goals for this project, i just randomly decided to make a login form, considering i've never really made one. The login form is based on a tutorial i have found on YouTube.
+I didnt have any particular goals for this project, i just randomly decided to make a login form with php and mysql. The login form is based on a tutorial i have found on YouTube. Just a friendly reminder, it's not a website, it's a simple login form. So if you don't like the visual aspect of it, it doesn't matter, because the purpose of it was to make the login form a little bit more visually acceptable instead of simply leaving 2 gray lines for connection and 2 bland buttons to interact with it.
 
 # Technologies used
 
